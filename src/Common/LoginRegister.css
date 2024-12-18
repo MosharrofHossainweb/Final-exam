@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add your classes here */
+.account {
+  @apply w-full lg:w-[1300px] lg:ml-[500px] lg:mt-[108px] md:mt-[60px] mt-6 lg:mb-[21px] md:mb-[16px] mb-[10px] lg:h-[600px] bg-slate-50 flex gap-[40px];
+}
+
+.head1 {
+  @apply lg:text-[36px] md:text-[26px] text-[24px] font-extrabold text-[#444B59] font-nunito;
+}
+
+.head2 {
+  @apply lg:text-[24px] md:text-[18px] text-[16px] lg:mt-[21px] md:mt-[15px] mt-3 font-light;
+}
+
+.email {
+  @apply rounded-[80px] font-nunito font-semibold px-4 py-3 border border-[#C8D3F9] focus:outline-none focus:ring-2 focus:ring-blue-400 h-[40px] md:h-[50px] lg:h-[81px] lg:w-[640px] md:w-[540px] w-[300px] text-[18px];
+}
+
+.password {
+  @apply rounded-[80px] font-nunito font-semibold px-4 py-3 border border-[#C8D3F9] focus:outline-none focus:ring-2 focus:ring-blue-400 md:h-[50px] h-[40px] lg:h-[81px] lg:w-[640px] md:w-[540px] w-[300px];
+}
+
+.block {
+  @apply text-[#444B59] mb-2 font-medium text-[12px] md:text-[20px] lg:text-[28px] font-nunito;
+}
+
+.sing {
+  @apply py-3 text-white bg-[#8699DA] h-[60px] lg:h-[81px] px-3 lg:w-[640px] md:w-[540px] w-[300px] hover:bg-blue-600 rounded-[80px] lg:mt-[55px] md:mt-[35px] mt-[25px] font-medium shadow-md flex justify-center items-center;
+}
